@@ -1,0 +1,31 @@
+{
+  "name": "fncreate",
+  "version": "1.0.0",
+  "description": "Check README.md",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyy-walker/fncreate.git"
+  },
+  "author": "Anthony Walker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonyy-walker/fncreate/issues"
+  },
+  "homepage": "https://github.com/anthonyy-walker/fncreate#readme",
+  "dependencies": {
+    "agenda": "^5.0.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^23.8.0"
+  }
+}
